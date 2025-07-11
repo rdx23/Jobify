@@ -24,7 +24,7 @@ const ApplicantsTable = () => {
     try {
       axios.defaults.withCredentials = true;
       const res = await axios.post(
-        `${APPLICATION_API_END_POINT}/status/${id}/update`,
+        `https://jobify-app-g41j.onrender.com/api/v1/application/status/${id}/update`,
         { status }
       );
       if (res.data.success) {

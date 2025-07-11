@@ -27,7 +27,7 @@ const JobDescription = () => {
   const applyJobHandler = async () => {
     try {
       const res = await axios.get(
-        `${APPLICATION_API_END_POINT}/apply/${jobId}`,
+        `https://jobify-app-g41j.onrender.com/api/v1/job/apply/${jobId}`,
 
         { withCredentials: true }
       );

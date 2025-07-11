@@ -49,7 +49,7 @@ const Signup = () => {
       try {
         dispatch(setLoading(true));
         const res = await axios.post(
-          `${USER_API_END_POINT}/register`,
+          "https://jobify-app-g41j.onrender.com/api/v1/user/register",
           formData,
           {
             headers: { "Content-Type": "multipart/form-data" },

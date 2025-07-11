@@ -11,7 +11,7 @@ const useGetAllJobs = () => {
     const fetchAllJobs = async () => {
       try {
         const res = await axios.get(
-          `${JOB_API_END_POINT}/get?keyword=${searchedQuery}`,
+          `https://jobify-app-g41j.onrender.com/api/v1/job/get?keyword=${searchedQuery}`,
           { withCredentials: true }
         );
         if (res.data.success) {
