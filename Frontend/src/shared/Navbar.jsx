@@ -14,7 +14,8 @@ import { USER_API_END_POINT } from "@/utils/constant";
 import { setUser } from "@/redux/authSlice";
 import { toast } from "sonner";
 import { motion } from "framer-motion";
-import jobSearchImg from "./jobSearch.png";
+import jobSearchImg from "../assets/JobSearch.png"
+
 
 
 const Navbar = () => {
