@@ -33,12 +33,12 @@
 Below are the screenshots of all main pages:
 
 ###  Home Page  
-<img src="Frontend/screenshots/Home.png" alt="Home Page" width="400" />
+<img src="screenshots/Home.png" alt="Home Page" width="400" />
 
 <br>
 
-###  Lastest Job Page  
-<img src="screenshots/Home(Lastestjob).png" alt="Lastestjob Page" width="500" />
+###  Latest Job Page  
+<img src="screenshots/Home(Latestjob).png" alt="Latestjob Page" width="500" />
 
 <br>
 
