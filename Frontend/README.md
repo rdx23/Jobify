@@ -32,126 +32,106 @@
 
 Below are the screenshots of all main pages:
 
-###  Home Page  
-<img src="screenshots/Home.png" alt="Home Page" width="400" />
+### 🏠 Home Page  
+<img src="screenshots/Home.png" alt="Home Page" width="500" />
 
 <br>
 
-###  Latest Job Page  
+### 📰 Latest Job Page  
 <img src="screenshots/Home(Latestjob).png" alt="Latestjob Page" width="500" />
 
 <br>
 
-###  Footer Page  
-<img src="screenshots/Footer.png" alt="Footer Page" width="600" />
+### 📩 Footer Page  
+<img src="screenshots/Footer.png" alt="Footer Page" width="500" />
 
 <br>
 
-###  Browse 
-<img src="screenshots/Browse.png" alt="Browse Page" width="400" />
+### 🔍 Browse Page  
+<img src="screenshots/Browse.png" alt="Browse Page" width="500" />
 
 <br>
 
-###  Profile Page  
-<img src="screenshots/Profilepage.png" alt="Profile Page " width="400" />
+### 🙍‍♂️ Profile Page  
+<img src="screenshots/Profilepage.png" alt="Profile Page" width="500" />
 
 <br>
 
-<br>
-
-###  Profile Applied Page  
-<img src="screenshots/ProfileAppliedJobs.png" alt="Profile Applied " width="400" />
+### 📌 Applied Jobs (Profile)  
+<img src="screenshots/ProfileAppliedJobs.png" alt="Profile Applied" width="500" />
 
 <br>
 
-<br>
-
-###  Profile Popover 
-<img src="screenshots/ProfilePopover.png" alt="Profile Popover " width="400" />
+### 🧾 Profile Popover  
+<img src="screenshots/ProfilePopover.png" alt="Profile Popover" width="500" />
 
 <br>
-
 
 ### 🔐 Login Page  
-<img src="screenshots/Login.png" alt="Login Page" width="400" />
+<img src="screenshots/Login.png" alt="Login Page" width="500" />
 
 <br>
 
 ### 📝 Signup Page  
-<img src="screenshots/Signup.png" alt="Signup Page" width="400" />
+<img src="screenshots/Signup.png" alt="Signup Page" width="500" />
 
 <br>
 
-###  All Jobs Page  
-<img src="screenshots/AllJobs.png" alt="All Jobs Page" width="400" />
+### 💼 All Jobs Page  
+<img src="screenshots/AllJobs.png" alt="All Jobs Page" width="500" />
 
 <br>
 
-###  Admin Companies  
-<img src="screenshots/AdminCompanies.png" alt="Admin Companies " width="400" />
+### 🏢 Admin – Companies  
+<img src="screenshots/AdminCompanies.png" alt="Admin Companies" width="500" />
 
 <br>
 
-<br>
-
-###  Admin Profile  
-<img src="screenshots/AdminProfile.png" alt="Admin Profile " width="400" />
+### 👤 Admin Profile  
+<img src="screenshots/AdminProfile.png" alt="Admin Profile" width="500" />
 
 <br>
 
-###  Posted job Page  
-<img src="screenshots/AdminJobs.png" alt="Posted job Page  " width="400" />
+### 🧾 Posted Job Page  
+<img src="screenshots/AdminJobs.png" alt="Posted Job Page" width="500" />
 
 <br>
 
-<br>
-
-###  Posted job Action  
-<img src="screenshots/AdminJob1.png" alt="Posted job Action  " width="400" />
+### ⚙️ Posted Job Actions  
+<img src="screenshots/AdminJob1.png" alt="Posted Job Action" width="500" />
 
 <br>
 
-<br>
-
-###  Applicants Page  
-<img src="screenshots/ApplicantsPage.png" alt="Applicants Page   " width="400" />
+### 👨‍💼 Applicants Page  
+<img src="screenshots/ApplicantsPage.png" alt="Applicants Page" width="500" />
 
 <br>
 
-<br>
-
-###  Applicants Action Page   
-<img src="screenshots/ApplicantsPage1.png" alt="Applicants Page   " width="400" />
+### ✅ Applicants Action Page  
+<img src="screenshots/ApplicantPage1.png" alt="Applicants Action Page" width="500" />
 
 <br>
 
-<br>
-
-###  New Company Page   
-<img src="screenshots/CreateNewCompany.png" alt="New Company Page" width="400" />
+### 🏢 Create New Company  
+<img src="screenshots/CreateNewCompany.png" alt="New Company Page" width="500" />
 
 <br>
 
-<br>
-
-###  New Job Page   
-<img src="screenshots/CreateNewJob.png" alt="New Job Page" width="400" />
+### 📄 Create New Job  
+<img src="screenshots/CreateNewJob.png" alt="New Job Page" width="500" />
 
 <br>
 
-<br>
-
-###  Company Setup page  
-<img src="screenshots/CompanySetup.png" alt="Company Setup page" width="400" />
+### 🛠️ Company Setup Page  
+<img src="screenshots/CompanySetup.png" alt="Company Setup Page" width="500" />
 
 <br>
 
-<br>
-
-###  Company Edit page  
-<img src="screenshots/CompanyEdit.png" alt="Company Edit page " width="400" />
+### ✏️ Company Edit Page  
+<img src="screenshots/CompanyEdit.png" alt="Company Edit Page" width="500" />
 
 <br>
+
 
 
 
