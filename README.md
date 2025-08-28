@@ -26,14 +26,14 @@
 
 ---
 
-## 🖼️ Screenshots
+
 
 ## 📸 Screenshots
 
 Below are the screenshots of all main pages:
 
 ###  Home Page  
-<img src="screenshots/Home.png" alt="Home Page" width="400" />
+<img src="Frontend/screenshots/Home.png" alt="Home Page" width="400" />
 
 <br>
 
