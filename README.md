@@ -46,107 +46,107 @@ Below are the screenshots of all main pages:
 <br>
 
 ###  Browse 
-<img src="screenshots/Browse.png" alt="Browse Page" width="400" />
+<img src="Frontend/screenshots/Browse.png" alt="Browse Page" width="500" />
 
 <br>
 
 ###  Profile Page  
-<img src="screenshots/Profilepage.png" alt="Profile Page " width="400" />
+<img src="Frontend/screenshots/Profilepage.png" alt="Profile Page " width="500" />
 
 <br>
 
 <br>
 
 ###  Profile Applied Page  
-<img src="screenshots/ProfileAppliedJobs.png" alt="Profile Applied " width="400" />
+<img src="Frontend/screenshots/ProfileAppliedJobs.png" alt="Profile Applied " width="500" />
 
 <br>
 
 
 ###  Profile Popover 
-<img src="screenshots/ProfilePopover.png" alt="Profile Popover " width="400" />
+<img src="Frontend/screenshots/ProfilePopover.png" alt="Profile Popover " width="500" />
 
 <br>
 
 
 ### 🔐 Login Page  
-<img src="screenshots/Login.png" alt="Login Page" width="400" />
+<img src="Frontend/screenshots/Login.png" alt="Login Page" width="500" />
 
 <br>
 
 ### 📝 Signup Page  
-<img src="screenshots/Signup.png" alt="Signup Page" width="400" />
+<img src="Frontend/screenshots/Signup.png" alt="Signup Page" width="500" />
 
 <br>
 
 ###  All Jobs Page  
-<img src="screenshots/AllJobs.png" alt="All Jobs Page" width="400" />
+<img src="Frontend/screenshots/AdminCompanies.png" alt="All Jobs Page" width="500" />
 
 <br>
 
 ###  Admin Companies  
-<img src="screenshots/AdminCompanies.png" alt="Admin Companies " width="400" />
+<img src="screenshots/AdminCompanies.png" alt="Admin Companies " width="500" />
 
 <br>
 
 <br>
 
 ###  Admin Profile  
-<img src="screenshots/AdminProfile.png" alt="Admin Profile " width="400" />
+<img src="Frontend/screenshots/AdminProfile.png" alt="Admin Profile " width="500" />
 
 <br>
 
 ###  Posted job Page  
-<img src="screenshots/AdminJobs.png" alt="Posted job Page  " width="400" />
+<img src="Frontend/screenshots/AdminJob1.png" alt="Posted job Page  " width="500" />
 
 <br>
 
 <br>
 
 ###  Posted job Action  
-<img src="screenshots/AdminJob1.png" alt="Posted job Action  " width="400" />
+<img src="screenshots/AdminJob1.png" alt="Posted job Action  " width="500" />
 
 <br>
 
 <br>
 
 ###  Applicants Page  
-<img src="screenshots/ApplicantsPage.png" alt="Applicants Page   " width="400" />
+<img src="Frontend/screenshots/ApplicantsPage.png" alt="Applicants Page   " width="500" />
 
 <br>
 
 <br>
 
 ###  Applicants Action Page   
-<img src="screenshots/ApplicantsPage1.png" alt="Applicants Page   " width="400" />
+<img src="Frontend/screenshots/ApplicantPage1.png" alt="Applicants Page   " width="500" />
 
 <br>
 
 <br>
 
 ###  New Company Page   
-<img src="screenshots/CreateNewCompany.png" alt="New Company Page" width="400" />
+<img src="Frontend/screenshots/CreateNewCompany.png" alt="New Company Page" width="500" />
 
 <br>
 
 <br>
 
 ###  New Job Page   
-<img src="screenshots/CreateNewJob.png" alt="New Job Page" width="400" />
+<img src="Frontend/screenshots/CreateNewJob.png" alt="New Job Page" width="500" />
 
 <br>
 
 <br>
 
 ###  Company Setup page  
-<img src="screenshots/CompanySetup.png" alt="Company Setup page" width="400" />
+<img src="Frontend/screenshots/CompanySetup.png" alt="Company Setup page" width="500" />
 
 <br>
 
 <br>
 
 ###  Company Edit page  
-<img src="screenshots/CompanyEdit.png" alt="Company Edit page " width="400" />
+<img src="Frontend/screenshots/CompanyEdit.png" alt="Company Edit page " width="500" />
 
 <br>
 
