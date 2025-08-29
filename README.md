@@ -36,7 +36,7 @@ Below are the screenshots of all main pages:
 <br>
 
 ###  Lastest Job Page  
-<img src="screenshots/Home(Lastestjob).png" alt="Lastestjob Page" width="500" />
+<img src="Frontend/screenshots/Home(Lastestjob).png" alt="Lastestjob Page" width="500" />
 
 <br>
 
