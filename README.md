@@ -6,7 +6,7 @@
 
 ## 🔗 Live Application
 
-🌐 [Click here to explore Jobify](https://jobify-app-g41j.onrender.com)
+🌐 [Click here to explore Jobify](https://jobify-app-g41j.onrender.com/)
 
 ---
 
