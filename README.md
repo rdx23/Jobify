@@ -36,12 +36,12 @@ Below are the screenshots of all main pages:
 <br>
 
 ###  Lastest Job Page  
-<img src="Frontend/screenshots/Home(Lastestjob).png" alt="Lastestjob Page" width="500" />
+<img src="Frontend/screenshots/Home(Latestjob).png" alt="Lastestjob Page" width="500" />
 
 <br>
 
 ###  Footer Page  
-<img src="screenshots/Footer.png" alt="Footer Page" width="600" />
+<img src="Frontend/screenshots/Footer.png" alt="Footer Page" width="600" />
 
 <br>
 
