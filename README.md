@@ -31,7 +31,7 @@
 Below are the screenshots of all main pages:
 
 ###  Home Page  
-<img src="Frontend/screenshots/Home.png" alt="Home Page" width="400" />
+<img src="Frontend/screenshots/Home.png" alt="Home Page" width="500" />
 
 <br>
 
@@ -41,7 +41,7 @@ Below are the screenshots of all main pages:
 <br>
 
 ###  Footer Page  
-<img src="Frontend/screenshots/Footer.png" alt="Footer Page" width="600" />
+<img src="Frontend/screenshots/Footer.png" alt="Footer Page" width="500" />
 
 <br>
 
