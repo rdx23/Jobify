@@ -28,8 +28,6 @@
 
 ## 🖼️ Screenshots
 
-## 📸 Screenshots
-
 Below are the screenshots of all main pages:
 
 ###  Home Page  
@@ -64,7 +62,6 @@ Below are the screenshots of all main pages:
 
 <br>
 
-<br>
 
 ###  Profile Popover 
 <img src="screenshots/ProfilePopover.png" alt="Profile Popover " width="400" />
