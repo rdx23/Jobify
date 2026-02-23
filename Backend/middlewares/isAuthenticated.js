@@ -11,16 +11,16 @@ const isAuthenticated = (req, res, next) => {
       });
     }
 
-    const decoded = jwt.verify(token, process.env.SECRET_KEY);
+    const decode = jwt.verify(token, process.env.SECRET_KEY);
 
-    if (!decoded) {
+    if (!decode) {
       return res.status(401).json({
         message: "Invalid token payload.",
         success: false,
       });
     }
 
-    req.id = decoded.userId; // Attach userId to request
+    req.id = decode.userId; // Attach userId to request
     next();
   } catch (error) {
     console.error("Authentication middleware error:", error);

@@ -26,11 +26,10 @@ const JobDescription = () => {
 
   const applyJobHandler = async () => {
     try {
-      const res = await axios.get(
-        `https://jobify-app-g41j.onrender.com/api/v1/job/apply/${jobId}`,
-
-        { withCredentials: true }
-      );
+       const res = await axios.get(
+         `${APPLICATION_API_END_POINT}/apply/${jobId}`,
+         { withCredentials: true },
+       );
 
       if (res.data.success) {
         setIsApplied(true);

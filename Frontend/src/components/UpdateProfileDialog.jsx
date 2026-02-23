@@ -53,16 +53,16 @@ const UpdateProfileDialog = ({ open, setOpen }) => {
        }
        try {
          setLoading(true);
-         const res = await axios.post(
-           "https://jobify-app-g41j.onrender.com/api/v1/user/profile/update",
-           formData,
-           {
-             headers: {
-               "Content-Type": "multipart/form-data",
-             },
-             withCredentials: true,
-           }
-         );
+          const res = await axios.post(
+            `${USER_API_END_POINT}/profile/update`,
+            formData,
+            {
+              headers: {
+                "Content-Type": "multipart/form-data",
+              },
+              withCredentials: true,
+            },
+          );
          if (res.data.success) {
            dispatch(setUser(res.data.user));
            toast.success(res.data.message);

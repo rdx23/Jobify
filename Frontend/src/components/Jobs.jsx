@@ -38,7 +38,7 @@ const itemVariants = {
 };
 
 const Jobs = () => {
-  const { allJobs, searchedQuery } = useSelector((store) => store.job);
+  const { allJobs, searchedQuery } = useSelector(store => store.job);
   const [filterJobs, setFilterJobs] = useState(allJobs);
 
   useEffect(() => {
