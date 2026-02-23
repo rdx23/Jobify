@@ -26,8 +26,6 @@
 
 ---
 
-## 🖼️ Screenshots
-
 ## 📸 Screenshots
 
 Below are the screenshots of all main pages:
