@@ -27,6 +27,10 @@ const corsOptions = {
   origin: "https://jobify-app-g41j.onrender.com",
   credentials: true,
 };
+
+
+
+
 app.use(cors(corsOptions));
 
 // api's
