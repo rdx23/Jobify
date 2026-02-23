@@ -94,64 +94,64 @@ export const login = async (req, res) => {
       profile: user.profile,
     };
 
-    // return res
-    //   .status(200)
-    //   .cookie("token", token, {
-    //     maxAge: 1 * 24 * 60 * 60 * 1000,
-    //     httpsOnly: true,
-    //     sameSite: "strict",
-    //   })
-    //   .json({
-    //     message: `Welcome back ${user.fullname}`,
-    //     user,
-    //     success: true,
-    //   });
     return res
       .status(200)
       .cookie("token", token, {
-        httpOnly: true,
-        secure: true, // REQUIRED for HTTPS (Render)
-        sameSite: "None", // REQUIRED for cross-origin
         maxAge: 1 * 24 * 60 * 60 * 1000,
+        httpsOnly: true,
+        sameSite: "strict",
       })
       .json({
         message: `Welcome back ${user.fullname}`,
         user,
         success: true,
       });
+    // return res
+    //   .status(200)
+    //   .cookie("token", token, {
+    //     httpOnly: true,
+    //     secure: true, // REQUIRED for HTTPS (Render)
+    //     sameSite: "None", // REQUIRED for cross-origin
+    //     maxAge: 1 * 24 * 60 * 60 * 1000,
+    //   })
+    //   .json({
+    //     message: `Welcome back ${user.fullname}`,
+    //     user,
+    //     success: true,
+    //   });
   } catch (error) {
     console.log(error);
   }
 };
+export const logout = async (req, res) => {
+  try {
+    return res.status(200).cookie("token", "", { maxAge: 0 }).json({
+      message: "Logged out successfully.",
+      success: true,
+    });
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 // export const logout = async (req, res) => {
 //   try {
-//     return res.status(200).cookie("token", "", { maxAge: 0 }).json({
-//       message: "Logged out successfully.",
-//       success: true,
-//     });
+//     return res
+//       .status(200)
+//       .cookie("token", "", {
+//         httpOnly: true,
+//         secure: true,
+//         sameSite: "None",
+//         expires: new Date(0),
+//       })
+//       .json({
+//         message: "Logged out successfully.",
+//         success: true,
+//       });
 //   } catch (error) {
 //     console.log(error);
 //   }
 // };
-
-export const logout = async (req, res) => {
-  try {
-    return res
-      .status(200)
-      .cookie("token", "", {
-        httpOnly: true,
-        secure: true,
-        sameSite: "None",
-        expires: new Date(0),
-      })
-      .json({
-        message: "Logged out successfully.",
-        success: true,
-      });
-  } catch (error) {
-    console.log(error);
-  }
-};
 export const updateProfile = async (req, res) => {
   try {
     const { fullname, email, phoneNumber, bio, skills } = req.body;
