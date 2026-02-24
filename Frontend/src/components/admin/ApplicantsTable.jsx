@@ -23,10 +23,10 @@ const ApplicantsTable = () => {
   const statusHandler = async (status, id) => {
     try {
       axios.defaults.withCredentials = true;
-      const res = await axios.post(
-        `https://jobify-app-g41j.onrender.com/api/v1/application/status/${id}/update`,
-        { status }
-      );
+       const res = await axios.post(
+         `${APPLICATION_API_END_POINT}/status/${id}/update`,
+         { status },
+       );
       if (res.data.success) {
         toast.success(res.data.message);
       }
