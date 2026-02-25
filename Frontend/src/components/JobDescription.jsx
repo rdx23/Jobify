@@ -27,7 +27,8 @@ const JobDescription = () => {
   const applyJobHandler = async () => {
     try {
        const res = await axios.get(
-         `${APPLICATION_API_END_POINT}/apply/${jobId}`,
+        //  `${APPLICATION_API_END_POINT}/apply/${jobId}`,
+          `https://jobify-app-g41j.onrender.com/api/v1/application/apply/${jobId}`,
          { withCredentials: true },
        );
 
@@ -49,7 +50,10 @@ const JobDescription = () => {
   useEffect(() => {
     const fetchSingleJob = async () => {
       try {
-        const res = await axios.get(`${JOB_API_END_POINT}/get/${jobId}`, {
+        const res = await axios.get(
+          // `${JOB_API_END_POINT}/get/${jobId}`, 
+          `https://jobify-app-g41j.onrender.com/api/v1/job/get/${jobId}`,
+          {
           withCredentials: true,
         });
         if (res.data.success) {

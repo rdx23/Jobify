@@ -51,7 +51,8 @@ const CompanySetup = () => {
     try {
       setLoading(true);
       const res = await axios.put(
-        `${COMPANY_API_END_POINT}/update/${params.id}`,
+        // `${COMPANY_API_END_POINT}/update/${params.id}`,
+        `https://jobify-app-g41j.onrender.com/api/v1/company/update/${params.id}`,
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },

@@ -17,7 +17,8 @@ const Applicants = () => {
     const fetchAllApplicants = async () => {
       try {
          const res = await axios.get(
-           `${APPLICATION_API_END_POINT}/${params.id}/applicants`,
+          //  `${APPLICATION_API_END_POINT}/${params.id}/applicants`,
+            `https://jobify-app-g41j.onrender.com/api/v1/application/${params.id}/applicants`,
            { withCredentials: true },
          );
         dispatch(setAllApplicants(res.data.job));

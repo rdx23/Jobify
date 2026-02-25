@@ -9,7 +9,10 @@ const useGetAllCompanies = () => {
   useEffect(() => {
     const fetchCompanies = async () => {
       try {
-        const res = await axios.get(`${COMPANY_API_END_POINT}/get`, {
+        const res = await axios.get(
+          // `${COMPANY_API_END_POINT}/get`, 
+          `https://jobify-app-g41j.onrender.com/api/v1/company/get`,
+          {
           withCredentials: true,
         });
        

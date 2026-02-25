@@ -21,7 +21,8 @@ const CompanyCreate = () => {
         }
       try {
         const res = await axios.post(
-          `${COMPANY_API_END_POINT}/register`,
+          // `${COMPANY_API_END_POINT}/register`,
+          `https://jobify-app-g41j.onrender.com/api/v1/company/register`,
           { companyName },
           {
             headers: {

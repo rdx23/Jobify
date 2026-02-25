@@ -11,14 +11,15 @@ const useGetAllJobs = () => {
     const fetchAllJobs = async () => {
       try {
          const res = await axios.get(
-           `${JOB_API_END_POINT}/get?keyword=${searchedQuery}`,
+          //  `${JOB_API_END_POINT}/get?keyword=${searchedQuery}`, all?keyword
+          `https://jobify-app-g41j.onrender.com/api/v1/job/get?keyword=${searchedQuery}`,
            { withCredentials: true },
          );
         if (res.data.success) {
           dispatch(setAllJobs(res.data.jobs));
         }
       } catch (error) {
-        console.log(error);
+        console.log(error); 
       }
     };
     fetchAllJobs();

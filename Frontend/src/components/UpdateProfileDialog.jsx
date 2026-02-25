@@ -54,7 +54,8 @@ const UpdateProfileDialog = ({ open, setOpen }) => {
        try {
          setLoading(true);
          const res = await axios.post(
-           `${USER_API_END_POINT}/profile/update`,
+          //  `${USER_API_END_POINT}/profile/update`,
+            `https://jobify-app-g41j.onrender.com/api/v1/user/profile/update`,
            formData,
            {
              headers: {
